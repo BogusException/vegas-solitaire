@@ -1,0 +1,69 @@
+﻿<Window x:Class="MainWindow" x:Name="MainWindow"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:vegas="clr-namespace:Vegas" 
+    Title="Vegas Solitaire" Height="843" Width="997">
+    <Window.Resources>
+        <!--<vegas:Cards x:Key="CardsList" />-->
+        <vegas:Deck x:Key="CardsList" />
+    </Window.Resources>
+        <Grid>
+        <Menu HorizontalAlignment="Left" Height="24" VerticalAlignment="Top" Width="989">
+            <MenuItem Header="Click Me" Click="MenuItem_Click"/>
+        </Menu>
+        <Viewbox>
+            <Grid Height="584">
+                <Canvas x:Name="TheCanvas" HorizontalAlignment="Left" Height="564" 
+                        Margin="10,10,0,0" VerticalAlignment="Top" Width="688" 
+                        >
+                    <ItemsControl ItemsSource="{Binding Source={StaticResource CardsList}, Path=Foundation1Pile}" >
+                        <ItemsControl.ItemsPanel>
+                            <ItemsPanelTemplate>
+                                <Canvas />
+                            </ItemsPanelTemplate>
+                        </ItemsControl.ItemsPanel>
+                        <ItemsControl.ItemTemplate>
+                            <DataTemplate DataType="{x:Type vegas:Card}">
+                                <Image Source="{Binding Source}" 
+                                       Width="{Binding Width}" 
+                                       Height="{Binding Height}" />
+                            </DataTemplate>
+                        </ItemsControl.ItemTemplate>
+                        <ItemsControl.ItemContainerStyle>
+                            <Style>
+                                <Setter Property="Canvas.Left" Value="{Binding Left}"/>
+                                <Setter Property="Canvas.Top" Value="{Binding Top}"/>
+                            </Style>
+                        </ItemsControl.ItemContainerStyle>
+                    </ItemsControl>
+
+                    <ItemsControl ItemsSource="{Binding Source={StaticResource CardsList}, Path=Foundation2Pile}" >
+                        <ItemsControl.ItemsPanel>
+                            <ItemsPanelTemplate>
+                                <Canvas />
+                            </ItemsPanelTemplate>
+                        </ItemsControl.ItemsPanel>
+                        <ItemsControl.ItemTemplate>
+                            <DataTemplate DataType="{x:Type vegas:Card}">
+                                <Image Source="{Binding Source}" 
+                                       Width="{Binding Width}" 
+                                       Height="{Binding Height}" />
+                            </DataTemplate>
+                        </ItemsControl.ItemTemplate>
+                        <ItemsControl.ItemContainerStyle>
+                            <Style>
+                                <Setter Property="Canvas.Left" Value="{Binding Left}"/>
+                                <Setter Property="Canvas.Top" Value="{Binding Top}"/>
+                            </Style>
+                        </ItemsControl.ItemContainerStyle>
+                    </ItemsControl>
+                </Canvas>
+
+                    <!--<Rectangle x:Name="Card1" Fill="{StaticResource CardImages}" Height="542" Canvas.Left="603" Stroke="Black" Canvas.Top="177" Width="356"/>-->
+                    <!--<Image x:Name="Foundation1" Height="201" Canvas.Left="10" Width="193" Source="images/10_of_clubs.png" />-->
+                    <!--<Rectangle x:Name="Card1" Fill="{DynamicResource CardImages}" Height="532" Canvas.Left="558" Stroke="Black" Canvas.Top="182" Width="360"/>-->
+
+            </Grid>
+        </Viewbox>
+    </Grid>
+</Window>

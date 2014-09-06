@@ -1,0 +1,319 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{E7F014FA-F38C-4B0F-A220-C6EA523CD1F1}</ProjectGuid>
+    <ProjectTypeGuids>{60dc8134-eba5-43b8-bcc9-bb4bc16c2548};{F184B08F-C81C-45F6-A57F-5ABD9991F28F}</ProjectTypeGuids>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Vegas</RootNamespace>
+    <AssemblyName>Vegas</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <MyType>Custom</MyType>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <IncrementalBuild>true</IncrementalBuild>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>Vegas.xml</DocumentationFile>
+    <NoWarn>41999,42016,42017,42018,42019,42020,42021,42022,42032,42036,42314</NoWarn>
+    <WarningsAsErrors>
+    </WarningsAsErrors>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DebugSymbols>false</DebugSymbols>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <IncrementalBuild>false</IncrementalBuild>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>Vegas.xml</DocumentationFile>
+    <NoWarn>41999,42016,42017,42018,42019,42020,42021,42022,42032,42036,42314</NoWarn>
+    <WarningsAsErrors>
+    </WarningsAsErrors>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EntityFramework">
+      <HintPath>..\packages\EntityFramework.6.1.1\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer">
+      <HintPath>..\packages\EntityFramework.6.1.1\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xaml">
+      <RequiredTargetFramework>4.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="WindowsBase" />
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+  </ItemGroup>
+  <ItemGroup>
+    <ApplicationDefinition Include="Application.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+    <Compile Include="Enums.vb" />
+    <Compile Include="globeStuff\Globe.xaml.vb">
+      <DependentUpon>Globe.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201406281753420_FirstTime.Designer.vb">
+      <DependentUpon>201406281753420_FirstTime.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201406281753420_FirstTime.vb" />
+    <Compile Include="Migrations\Configuration.vb" />
+    <Compile Include="VegasContext.vb" />
+    <Compile Include="VegasSet.vb" />
+    <Page Include="MainWindow.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Compile Include="Application.xaml.vb">
+      <DependentUpon>Application.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Card.vb" />
+    <Compile Include="Deck.vb" />
+    <Compile Include="Dealer.vb" />
+    <Compile Include="Game.vb" />
+    <Compile Include="MainWindow.xaml.vb">
+      <DependentUpon>MainWindow.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Page Include="globeStuff\Globe.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="PlayingCardsResourceDictionary.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="System.Threading.Tasks" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows" />
+    <Import Include="System.Windows.Controls" />
+    <Import Include="System.Windows.Data" />
+    <Import Include="System.Windows.Documents" />
+    <Import Include="System.Windows.Input" />
+    <Import Include="System.Windows.Shapes" />
+    <Import Include="System.Windows.Media" />
+    <Import Include="System.Windows.Media.Imaging" />
+    <Import Include="System.Windows.Navigation" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="My Project\AssemblyInfo.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="My Project\MyExtensions\MyWpfExtension.vb">
+      <VBMyExtensionTemplateID>Microsoft.VisualBasic.WPF.MyExtension</VBMyExtensionTemplateID>
+      <VBMyExtensionTemplateVersion>1.0.0.0</VBMyExtensionTemplateVersion>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <EmbeddedResource Include="Migrations\201406281753420_FirstTime.resx">
+      <DependentUpon>201406281753420_FirstTime.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+    </EmbeddedResource>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <AppDesigner Include="My Project\" />
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config">
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="storage\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="images\10_of_clubs.png" />
+    <Resource Include="images\10_of_diamonds.png" />
+    <Resource Include="images\10_of_hearts.png" />
+    <Resource Include="images\10_of_spades.png" />
+    <Resource Include="images\2_of_clubs.png" />
+    <Resource Include="images\2_of_diamonds.png" />
+    <Resource Include="images\2_of_hearts.png" />
+    <Resource Include="images\2_of_spades.png" />
+    <Resource Include="images\3_of_clubs.png" />
+    <Resource Include="images\3_of_diamonds.png" />
+    <Resource Include="images\3_of_hearts.png" />
+    <Resource Include="images\3_of_spades.png" />
+    <Resource Include="images\4_of_clubs.png" />
+    <Resource Include="images\4_of_diamonds.png" />
+    <Resource Include="images\4_of_hearts.png" />
+    <Resource Include="images\4_of_spades.png" />
+    <Resource Include="images\5_of_clubs.png" />
+    <Resource Include="images\5_of_diamonds.png" />
+    <Resource Include="images\5_of_hearts.png" />
+    <Resource Include="images\5_of_spades.png" />
+    <Resource Include="images\6_of_clubs.png" />
+    <Resource Include="images\6_of_diamonds.png" />
+    <Resource Include="images\6_of_hearts.png" />
+    <Resource Include="images\6_of_spades.png" />
+    <Resource Include="images\7_of_clubs.png" />
+    <Resource Include="images\7_of_diamonds.png" />
+    <Resource Include="images\7_of_hearts.png" />
+    <Resource Include="images\7_of_spades.png" />
+    <Resource Include="images\8_of_clubs.png" />
+    <Resource Include="images\8_of_diamonds.png" />
+    <Resource Include="images\8_of_hearts.png" />
+    <Resource Include="images\8_of_spades.png" />
+    <Resource Include="images\9_of_clubs.png" />
+    <Resource Include="images\9_of_diamonds.png" />
+    <Resource Include="images\9_of_hearts.png" />
+    <Resource Include="images\9_of_spades.png" />
+    <Resource Include="images\ace_of_clubs.png" />
+    <Resource Include="images\ace_of_diamonds.png" />
+    <Resource Include="images\ace_of_hearts.png" />
+    <Resource Include="images\ace_of_spades.png" />
+    <Resource Include="images\ace_of_spades2.png" />
+    <Resource Include="images\black_joker.png" />
+    <Resource Include="images\jack_of_clubs.png" />
+    <Resource Include="images\jack_of_clubs2.png" />
+    <Resource Include="images\jack_of_diamonds.png" />
+    <Resource Include="images\jack_of_diamonds2.png" />
+    <Resource Include="images\jack_of_hearts.png" />
+    <Resource Include="images\jack_of_hearts2.png" />
+    <Resource Include="images\jack_of_spades.png" />
+    <Resource Include="images\jack_of_spades2.png" />
+    <Resource Include="images\king_of_clubs.png" />
+    <Resource Include="images\king_of_clubs2.png" />
+    <Resource Include="images\king_of_diamonds.png" />
+    <Resource Include="images\king_of_diamonds2.png" />
+    <Resource Include="images\king_of_hearts.png" />
+    <Resource Include="images\king_of_hearts2.png" />
+    <Resource Include="images\king_of_spades.png" />
+    <Resource Include="images\king_of_spades2.png" />
+    <Resource Include="images\queen_of_clubs.png" />
+    <Resource Include="images\queen_of_clubs2.png" />
+    <Resource Include="images\queen_of_diamonds.png" />
+    <Resource Include="images\queen_of_diamonds2.png" />
+    <Resource Include="images\queen_of_hearts.png" />
+    <Resource Include="images\queen_of_hearts2.png" />
+    <Resource Include="images\queen_of_spades.png" />
+    <Resource Include="images\queen_of_spades2.png" />
+    <Resource Include="images\red_joker.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="globeStuff\earth.jpg" />
+    <Resource Include="globeStuff\rotating earth.txt" />
+    <Resource Include="globeStuff\saturn.jpg" />
+    <Content Include="images\10_of_clubs.svg" />
+    <Content Include="images\10_of_diamonds.svg" />
+    <Content Include="images\10_of_hearts.svg" />
+    <Content Include="images\10_of_spades.svg" />
+    <Content Include="images\2_of_clubs.svg" />
+    <Content Include="images\2_of_diamonds.svg" />
+    <Content Include="images\2_of_hearts.svg" />
+    <Content Include="images\2_of_spades.svg" />
+    <Content Include="images\3_of_clubs.svg" />
+    <Content Include="images\3_of_diamonds.svg" />
+    <Content Include="images\3_of_hearts.svg" />
+    <Content Include="images\3_of_spades.svg" />
+    <Content Include="images\4_of_clubs.svg" />
+    <Content Include="images\4_of_diamonds.svg" />
+    <Content Include="images\4_of_hearts.svg" />
+    <Content Include="images\4_of_spades.svg" />
+    <Content Include="images\5_of_clubs.svg" />
+    <Content Include="images\5_of_diamonds.svg" />
+    <Content Include="images\5_of_hearts.svg" />
+    <Content Include="images\5_of_spades.svg" />
+    <Content Include="images\6_of_clubs.svg" />
+    <Content Include="images\6_of_diamonds.svg" />
+    <Content Include="images\6_of_hearts.svg" />
+    <Content Include="images\6_of_spades.svg" />
+    <Content Include="images\7_of_clubs.svg" />
+    <Content Include="images\7_of_diamonds.svg" />
+    <Content Include="images\7_of_hearts.svg" />
+    <Content Include="images\7_of_spades.svg" />
+    <Content Include="images\8_of_clubs.svg" />
+    <Content Include="images\8_of_diamonds.svg" />
+    <Content Include="images\8_of_hearts.svg" />
+    <Content Include="images\8_of_spades.svg" />
+    <Content Include="images\9_of_clubs.svg" />
+    <Content Include="images\9_of_diamonds.svg" />
+    <Content Include="images\9_of_hearts.svg" />
+    <Content Include="images\9_of_spades.svg" />
+    <Content Include="images\ace_of_clubs.svg" />
+    <Content Include="images\ace_of_diamonds.svg" />
+    <Content Include="images\ace_of_hearts.svg" />
+    <Content Include="images\ace_of_spades.svg" />
+    <Content Include="images\ace_of_spades2.svg" />
+    <Content Include="images\black_joker.svg" />
+    <Content Include="images\jack_of_clubs.svg" />
+    <Content Include="images\jack_of_clubs2.svg" />
+    <Content Include="images\jack_of_diamonds.svg" />
+    <Content Include="images\jack_of_diamonds2.svg" />
+    <Content Include="images\jack_of_hearts.svg" />
+    <Content Include="images\jack_of_hearts2.svg" />
+    <Content Include="images\jack_of_spades.svg" />
+    <Content Include="images\jack_of_spades2.svg" />
+    <Content Include="images\king_of_clubs.svg" />
+    <Content Include="images\king_of_clubs2.svg" />
+    <Content Include="images\king_of_diamonds.svg" />
+    <Content Include="images\king_of_diamonds2.svg" />
+    <Content Include="images\king_of_hearts.svg" />
+    <Content Include="images\king_of_hearts2.svg" />
+    <Content Include="images\king_of_spades.svg" />
+    <Content Include="images\king_of_spades2.svg" />
+    <Content Include="images\queen_of_clubs.svg" />
+    <Content Include="images\queen_of_clubs2.svg" />
+    <Content Include="images\queen_of_diamonds.svg" />
+    <Content Include="images\queen_of_diamonds2.svg" />
+    <Content Include="images\queen_of_hearts.svg" />
+    <Content Include="images\queen_of_hearts2.svg" />
+    <Content Include="images\queen_of_spades.svg" />
+    <Content Include="images\queen_of_spades2.svg" />
+    <Content Include="images\red_joker.svg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+</Project>

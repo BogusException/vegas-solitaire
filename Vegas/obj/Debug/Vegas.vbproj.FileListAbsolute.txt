@@ -1,0 +1,80 @@
+C:\Users\Pat\Documents\Visual Studio 2012\Projects\VegasSolitaire\Vegas\bin\Debug\Vegas.exe.config
+C:\Users\Pat\Documents\Visual Studio 2012\Projects\VegasSolitaire\Vegas\bin\Debug\Vegas.exe
+C:\Users\Pat\Documents\Visual Studio 2012\Projects\VegasSolitaire\Vegas\bin\Debug\Vegas.pdb
+C:\Users\Pat\Documents\Visual Studio 2012\Projects\VegasSolitaire\Vegas\bin\Debug\Vegas.xml
+C:\Users\Pat\Documents\Visual Studio 2012\Projects\VegasSolitaire\Vegas\bin\Debug\EntityFramework.dll
+C:\Users\Pat\Documents\Visual Studio 2012\Projects\VegasSolitaire\Vegas\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Pat\Documents\Visual Studio 2012\Projects\VegasSolitaire\Vegas\bin\Debug\EntityFramework.xml
+C:\Users\Pat\Documents\Visual Studio 2012\Projects\VegasSolitaire\Vegas\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Pat\Documents\Visual Studio 2012\Projects\VegasSolitaire\Vegas\obj\Debug\PlayingCardsResourceDictionary.baml
+C:\Users\Pat\Documents\Visual Studio 2012\Projects\VegasSolitaire\Vegas\obj\Debug\Application.baml
+C:\Users\Pat\Documents\Visual Studio 2012\Projects\VegasSolitaire\Vegas\obj\Debug\Application.g.vb
+C:\Users\Pat\Documents\Visual Studio 2012\Projects\VegasSolitaire\Vegas\obj\Debug\Vegas_Content.g.vb
+C:\Users\Pat\Documents\Visual Studio 2012\Projects\VegasSolitaire\Vegas\obj\Debug\GeneratedInternalTypeHelper.g.vb
+C:\Users\Pat\Documents\Visual Studio 2012\Projects\VegasSolitaire\Vegas\obj\Debug\Vegas_MarkupCompile.cache
+C:\Users\Pat\Documents\Visual Studio 2012\Projects\VegasSolitaire\Vegas\obj\Debug\Vegas_MarkupCompile.lref
+C:\Users\Pat\Documents\Visual Studio 2012\Projects\VegasSolitaire\Vegas\obj\Debug\Vegas.g.resources
+C:\Users\Pat\Documents\Visual Studio 2012\Projects\VegasSolitaire\Vegas\obj\Debug\Vegas.Migrations.FirstTime.resources
+C:\Users\Pat\Documents\Visual Studio 2012\Projects\VegasSolitaire\Vegas\obj\Debug\Vegas.Resources.resources
+C:\Users\Pat\Documents\Visual Studio 2012\Projects\VegasSolitaire\Vegas\obj\Debug\Vegas.vbproj.GenerateResource.Cache
+C:\Users\Pat\Documents\Visual Studio 2012\Projects\VegasSolitaire\Vegas\obj\Debug\Vegas.exe
+C:\Users\Pat\Documents\Visual Studio 2012\Projects\VegasSolitaire\Vegas\obj\Debug\Vegas.xml
+C:\Users\Pat\Documents\Visual Studio 2012\Projects\VegasSolitaire\Vegas\obj\Debug\Vegas.pdb
+C:\Users\Pat\Documents\Visual Studio 2012\Projects\VegasSolitaire\Vegas\obj\Debug\globeStuff\Globe.baml
+C:\Users\Pat\Documents\Visual Studio 2012\Projects\VegasSolitaire\Vegas\obj\Debug\MainWindow.g.vb
+C:\Users\Pat\Documents\Visual Studio 2012\Projects\VegasSolitaire\Vegas\obj\Debug\globeStuff\Globe.g.vb
+C:\Users\Pat\Documents\Visual Studio 2012\Projects\VegasSolitaire\Vegas\obj\Debug\MainWindow.baml
+C:\Users\Pat\Documents\Visual Studio 2013\Projects\VegasSolitaire\Vegas\bin\Debug\Vegas.exe.config
+C:\Users\Pat\Documents\Visual Studio 2013\Projects\VegasSolitaire\Vegas\bin\Debug\Vegas.exe
+C:\Users\Pat\Documents\Visual Studio 2013\Projects\VegasSolitaire\Vegas\bin\Debug\Vegas.pdb
+C:\Users\Pat\Documents\Visual Studio 2013\Projects\VegasSolitaire\Vegas\bin\Debug\Vegas.xml
+C:\Users\Pat\Documents\Visual Studio 2013\Projects\VegasSolitaire\Vegas\bin\Debug\EntityFramework.dll
+C:\Users\Pat\Documents\Visual Studio 2013\Projects\VegasSolitaire\Vegas\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Pat\Documents\Visual Studio 2013\Projects\VegasSolitaire\Vegas\bin\Debug\EntityFramework.xml
+C:\Users\Pat\Documents\Visual Studio 2013\Projects\VegasSolitaire\Vegas\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Pat\Documents\Visual Studio 2013\Projects\VegasSolitaire\Vegas\obj\Debug\Vegas.vbprojResolveAssemblyReference.cache
+C:\Users\Pat\Documents\Visual Studio 2013\Projects\VegasSolitaire\Vegas\obj\Debug\globeStuff\Globe.baml
+C:\Users\Pat\Documents\Visual Studio 2013\Projects\VegasSolitaire\Vegas\obj\Debug\PlayingCardsResourceDictionary.baml
+C:\Users\Pat\Documents\Visual Studio 2013\Projects\VegasSolitaire\Vegas\obj\Debug\Application.baml
+C:\Users\Pat\Documents\Visual Studio 2013\Projects\VegasSolitaire\Vegas\obj\Debug\MainWindow.g.vb
+C:\Users\Pat\Documents\Visual Studio 2013\Projects\VegasSolitaire\Vegas\obj\Debug\globeStuff\Globe.g.vb
+C:\Users\Pat\Documents\Visual Studio 2013\Projects\VegasSolitaire\Vegas\obj\Debug\Application.g.vb
+C:\Users\Pat\Documents\Visual Studio 2013\Projects\VegasSolitaire\Vegas\obj\Debug\Vegas_Content.g.vb
+C:\Users\Pat\Documents\Visual Studio 2013\Projects\VegasSolitaire\Vegas\obj\Debug\GeneratedInternalTypeHelper.g.vb
+C:\Users\Pat\Documents\Visual Studio 2013\Projects\VegasSolitaire\Vegas\obj\Debug\Vegas_MarkupCompile.cache
+C:\Users\Pat\Documents\Visual Studio 2013\Projects\VegasSolitaire\Vegas\obj\Debug\Vegas_MarkupCompile.lref
+C:\Users\Pat\Documents\Visual Studio 2013\Projects\VegasSolitaire\Vegas\obj\Debug\MainWindow.baml
+C:\Users\Pat\Documents\Visual Studio 2013\Projects\VegasSolitaire\Vegas\obj\Debug\Vegas.g.resources
+C:\Users\Pat\Documents\Visual Studio 2013\Projects\VegasSolitaire\Vegas\obj\Debug\Vegas.Migrations.FirstTime.resources
+C:\Users\Pat\Documents\Visual Studio 2013\Projects\VegasSolitaire\Vegas\obj\Debug\Vegas.Resources.resources
+C:\Users\Pat\Documents\Visual Studio 2013\Projects\VegasSolitaire\Vegas\obj\Debug\Vegas.vbproj.GenerateResource.Cache
+C:\Users\Pat\Documents\Visual Studio 2013\Projects\VegasSolitaire\Vegas\obj\Debug\Vegas.exe
+C:\Users\Pat\Documents\Visual Studio 2013\Projects\VegasSolitaire\Vegas\obj\Debug\Vegas.xml
+C:\Users\Pat\Documents\Visual Studio 2013\Projects\VegasSolitaire\Vegas\obj\Debug\Vegas.pdb
+C:\Users\Pat\Source\Repos\vegas-solitaire\Vegas\bin\Debug\Vegas.exe.config
+C:\Users\Pat\Source\Repos\vegas-solitaire\Vegas\bin\Debug\Vegas.exe
+C:\Users\Pat\Source\Repos\vegas-solitaire\Vegas\bin\Debug\Vegas.pdb
+C:\Users\Pat\Source\Repos\vegas-solitaire\Vegas\bin\Debug\Vegas.xml
+C:\Users\Pat\Source\Repos\vegas-solitaire\Vegas\bin\Debug\EntityFramework.dll
+C:\Users\Pat\Source\Repos\vegas-solitaire\Vegas\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Pat\Source\Repos\vegas-solitaire\Vegas\bin\Debug\EntityFramework.xml
+C:\Users\Pat\Source\Repos\vegas-solitaire\Vegas\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Pat\Source\Repos\vegas-solitaire\Vegas\obj\Debug\Vegas.vbprojResolveAssemblyReference.cache
+C:\Users\Pat\Source\Repos\vegas-solitaire\Vegas\obj\Debug\globeStuff\Globe.baml
+C:\Users\Pat\Source\Repos\vegas-solitaire\Vegas\obj\Debug\PlayingCardsResourceDictionary.baml
+C:\Users\Pat\Source\Repos\vegas-solitaire\Vegas\obj\Debug\Application.baml
+C:\Users\Pat\Source\Repos\vegas-solitaire\Vegas\obj\Debug\MainWindow.g.vb
+C:\Users\Pat\Source\Repos\vegas-solitaire\Vegas\obj\Debug\globeStuff\Globe.g.vb
+C:\Users\Pat\Source\Repos\vegas-solitaire\Vegas\obj\Debug\Application.g.vb
+C:\Users\Pat\Source\Repos\vegas-solitaire\Vegas\obj\Debug\Vegas_Content.g.vb
+C:\Users\Pat\Source\Repos\vegas-solitaire\Vegas\obj\Debug\GeneratedInternalTypeHelper.g.vb
+C:\Users\Pat\Source\Repos\vegas-solitaire\Vegas\obj\Debug\Vegas_MarkupCompile.cache
+C:\Users\Pat\Source\Repos\vegas-solitaire\Vegas\obj\Debug\Vegas_MarkupCompile.lref
+C:\Users\Pat\Source\Repos\vegas-solitaire\Vegas\obj\Debug\MainWindow.baml
+C:\Users\Pat\Source\Repos\vegas-solitaire\Vegas\obj\Debug\Vegas.g.resources
+C:\Users\Pat\Source\Repos\vegas-solitaire\Vegas\obj\Debug\Vegas.Migrations.FirstTime.resources
+C:\Users\Pat\Source\Repos\vegas-solitaire\Vegas\obj\Debug\Vegas.Resources.resources
+C:\Users\Pat\Source\Repos\vegas-solitaire\Vegas\obj\Debug\Vegas.vbproj.GenerateResource.Cache
+C:\Users\Pat\Source\Repos\vegas-solitaire\Vegas\obj\Debug\Vegas.exe
+C:\Users\Pat\Source\Repos\vegas-solitaire\Vegas\obj\Debug\Vegas.xml
+C:\Users\Pat\Source\Repos\vegas-solitaire\Vegas\obj\Debug\Vegas.pdb
